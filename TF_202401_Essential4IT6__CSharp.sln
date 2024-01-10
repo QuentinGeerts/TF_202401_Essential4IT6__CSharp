@@ -3,23 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionDotNet5", "IntroductionDotNet5\IntroductionDotNet5.csproj", "{29FC05D8-4CD7-4103-A986-D1BC5CB52741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionDotNet5", "IntroductionDotNet5\IntroductionDotNet5.csproj", "{29FC05D8-4CD7-4103-A986-D1BC5CB52741}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionDotNet6Superieures", "IntroductionDotNet6Superieures\IntroductionDotNet6Superieures.csproj", "{2759B65C-DA77-4871-AA04-64C87A15FAF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionDotNet6Superieures", "IntroductionDotNet6Superieures\IntroductionDotNet6Superieures.csproj", "{2759B65C-DA77-4871-AA04-64C87A15FAF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionDotNet6", "IntroductionDotNet6\IntroductionDotNet6.csproj", "{6E45F56B-52B5-4FC5-A61B-81CB1AF2C286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionDotNet6", "IntroductionDotNet6\IntroductionDotNet6.csproj", "{6E45F56B-52B5-4FC5-A61B-81CB1AF2C286}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction", "Introduction", "{B8C63D36-65B6-4886-9FDF-AEFE301CE246}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{7FB0D88C-023C-4745-9FF1-CA3165766074}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoVariables", "demoVariables\demoVariables.csproj", "{54D5529D-2103-48A9-B04A-77CD3F2CB815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoVariables", "demoVariables\demoVariables.csproj", "{54D5529D-2103-48A9-B04A-77CD3F2CB815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoTypes", "demoTypes\demoTypes.csproj", "{3DB06C2B-912F-455A-8DE1-6ADBE02046C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "demoTypes", "demoTypes\demoTypes.csproj", "{3DB06C2B-912F-455A-8DE1-6ADBE02046C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercices", "Exercices", "{4C47F1FD-57C1-4B76-A8CC-4BFD31259F19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice01", "Exercice01\Exercice01.csproj", "{83521118-82DA-48C2-A369-2C70AAA169F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice01", "Exercice01\Exercice01.csproj", "{83521118-82DA-48C2-A369-2C70AAA169F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conversions", "Conversions", "{C942DB3D-668A-44C2-961B-C2BC79A15663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoConversions", "demoConversions\demoConversions.csproj", "{80C75677-008E-47F1-A824-04C73DAEE13D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exoConversions", "exoConversions\exoConversions.csproj", "{1A5D7A34-CB53-4075-A72D-B14A6332AD9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Instructions conditionnelles", "Instructions conditionnelles", "{DB717F96-D9FC-4D12-B442-2DF2C76982DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exoInstructionsConditionnelles", "exoInstructionsConditionnelles\exoInstructionsConditionnelles.csproj", "{6561BD53-0D12-49E8-8CD8-1FC2FF16752C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Opérateurs", "Opérateurs", "{E359DEB4-7277-4B3B-A348-2526F8D8A0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demoOperateurs", "demoOperateurs\demoOperateurs.csproj", "{E93C3ACA-1B8D-4A7C-8E04-5577B93A3197}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +65,22 @@ Global
 		{83521118-82DA-48C2-A369-2C70AAA169F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83521118-82DA-48C2-A369-2C70AAA169F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83521118-82DA-48C2-A369-2C70AAA169F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C75677-008E-47F1-A824-04C73DAEE13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C75677-008E-47F1-A824-04C73DAEE13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C75677-008E-47F1-A824-04C73DAEE13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C75677-008E-47F1-A824-04C73DAEE13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5D7A34-CB53-4075-A72D-B14A6332AD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5D7A34-CB53-4075-A72D-B14A6332AD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5D7A34-CB53-4075-A72D-B14A6332AD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5D7A34-CB53-4075-A72D-B14A6332AD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6561BD53-0D12-49E8-8CD8-1FC2FF16752C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6561BD53-0D12-49E8-8CD8-1FC2FF16752C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6561BD53-0D12-49E8-8CD8-1FC2FF16752C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6561BD53-0D12-49E8-8CD8-1FC2FF16752C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93C3ACA-1B8D-4A7C-8E04-5577B93A3197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93C3ACA-1B8D-4A7C-8E04-5577B93A3197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93C3ACA-1B8D-4A7C-8E04-5577B93A3197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93C3ACA-1B8D-4A7C-8E04-5577B93A3197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +92,10 @@ Global
 		{54D5529D-2103-48A9-B04A-77CD3F2CB815} = {7FB0D88C-023C-4745-9FF1-CA3165766074}
 		{3DB06C2B-912F-455A-8DE1-6ADBE02046C3} = {7FB0D88C-023C-4745-9FF1-CA3165766074}
 		{83521118-82DA-48C2-A369-2C70AAA169F2} = {4C47F1FD-57C1-4B76-A8CC-4BFD31259F19}
+		{80C75677-008E-47F1-A824-04C73DAEE13D} = {C942DB3D-668A-44C2-961B-C2BC79A15663}
+		{1A5D7A34-CB53-4075-A72D-B14A6332AD9A} = {C942DB3D-668A-44C2-961B-C2BC79A15663}
+		{6561BD53-0D12-49E8-8CD8-1FC2FF16752C} = {DB717F96-D9FC-4D12-B442-2DF2C76982DF}
+		{E93C3ACA-1B8D-4A7C-8E04-5577B93A3197} = {E359DEB4-7277-4B3B-A348-2526F8D8A0BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4C9B4CD-50A0-4773-B089-2870A168FE74}
