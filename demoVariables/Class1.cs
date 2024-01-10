@@ -4,7 +4,8 @@ internal class Class1
 {
     // Une classe possède des membres
     // Une variable membre
-    int X; // default(T) => INT => 0
+    public int X; // default(T) => INT => 0
+    public const int Y = 42;
 
     // Une méthode membre
     public void MaMethode()
@@ -27,3 +28,8 @@ internal class Class1
     }
 }
 
+public class Personne
+{
+    public string prenom;
+    public string nom;
+}
